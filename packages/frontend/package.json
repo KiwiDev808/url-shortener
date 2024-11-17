@@ -1,0 +1,12 @@
+{
+  "name": "@url-shortener/frontend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "echo 'Frontend dev script will go here'",
+    "build": "echo 'Frontend build script will go here'",
+    "test": "echo 'Frontend test script will go here'"
+  },
+  "main": "index.js",
+  "license": "MIT"
+}

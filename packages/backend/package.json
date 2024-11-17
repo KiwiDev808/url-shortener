@@ -1,0 +1,10 @@
+{
+  "name": "@url-shortener/backend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "echo 'Backend dev script will go here'",
+    "build": "echo 'Backend build script will go here'",
+    "test": "echo 'Backend test script will go here'"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "name": "url-shortener",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/KiwiDev808/url-shortener.git",
+  "author": "KiwiDev808 <lucasbacela@hotmail.com>",
+  "license": "GPL-3.0-only",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "dev:frontend": "yarn workspace @url-shortener/frontend dev",
+    "dev:backend": "yarn workspace @url-shortener/backend dev",
+    "build": "yarn workspaces run build",
+    "test": "yarn workspaces run test"
+  }
+}
